@@ -5,7 +5,7 @@
 }
 
 .menuRight{
-  position: absolute; right: 0;
+  /* position: absolute; right: 0; */
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: gray;
   font-weight: bold;
@@ -33,6 +33,15 @@ h2 {
 
 }
 
+p {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  line-height: 40px;
+  font-size: 20px;
+
+}
+
+
 body {
   background-image:url(../images/dust_scratches.png);
   height: 100%;
@@ -42,8 +51,7 @@ body {
 }
 
 .whiteBlock{
-  background-color: #ffffff;
-
+  background-color: #ffffff;`
 }
 
 .footer-sticky{
@@ -57,14 +65,94 @@ body {
 .backgroundBlock {
   background-color: #ffffff;
   border-color: #cccccc;
-  padding: 10px;
-  margin-top:50px;
-  margin-right: 350px;
-  margin-left: 350px;
-  margin-bottom: 100px;
-
 }
 
 .imgWilson {
   float: left;
 }
+
+.card-text-edited{
+  bottom: 30px;
+  margin-top:10px;
+  margin-right: -20px;
+  margin-left:-20px;
+  text-align: center;
+  background-color: #4aaaa5 ;
+  color: white;
+}
+
+.card-margin{
+  margin: 1rem;
+}
+
+.portfolio{
+  display: "flex";
+  flex-wrap:"wrap";
+  margin-right:0.8rem;
+  margin-left:0.8rem;
+  margin-bottom: 0.8rem;
+}`
+
+#font-portfolio{
+  font-size:5px;
+}
+
+.margin-centered{
+  margin-left: 10%;
+  margin-right:10%;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+/* tests for sticky footer */
+
+html,body
+{
+height:100%;
+}
+
+#wrap
+{
+min-height: 100%;
+}
+
+#main
+{
+overflow:auto;
+padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.footer
+{
+position: relative;
+margin-top: -80px; /* negative value of footer height */
+height: 80px;
+clear:both;
+padding-top:20px;
+text-align: center;
+color: #ffffff;
+background-color: #666666;
+border-top: #4aaaa5 10px solid;
+}
+
+@media screen and (max-width: 800px) {
+  body, p {
+    font-size: 25px;
+  }
+
+  body, .margin-centered {
+    margin-left: 5%;
+    margin-right:5%;
+
+  }
+
+  h1 {
+    font-size: 80px;
+  }
