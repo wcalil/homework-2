@@ -1,6 +1,8 @@
 # homework-2
 Homework 2 - Responsive Website using Bootstrap
 
+#Link
+https://wcalil.github.io/homework-2/
 
 #1 About Me
 
